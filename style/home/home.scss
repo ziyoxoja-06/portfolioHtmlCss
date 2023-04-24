@@ -1,9 +1,14 @@
+
+
 .home {
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 0 9%;
     color: #ededed;
+    background: url('/img/home__baground.png') no-repeat;
+    background-position: center;
+    background-size: cover;
     &__text {
         max-width: 600px;
     }
@@ -191,7 +196,6 @@
         background: transparent;
         transition: 3s;
         animation: mainpActiveHover .1s forwards;
-        pointer-events: none;
     }
         &__imgHover::after {
             content: '';
@@ -203,6 +207,7 @@
             background: #081b29;
             animation: showRight 1s ease forwards;
             animation-delay: 3s;
+            pointer-events: none;
             z-index: 100;
         }
 

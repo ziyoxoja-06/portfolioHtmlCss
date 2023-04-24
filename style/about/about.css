@@ -1,0 +1,70 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #081b29;
+  padding-bottom: 6rem;
+  /*  about img  */
+  /*  about content  */
+}
+.about__img {
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  img tag */
+  /*   circle class */
+}
+.about__img img {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  border: 0.2rem solid #00abf0;
+}
+.about__img .cirle__spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border-top: 0.2rem solid #081b29;
+  border-bottom: 0.2rem solid #081b29;
+  border-left: 0.2rem solid #00abf0;
+  border-right: 0.2rem solid #00abf0;
+}
+.about__content {
+  text-align: center;
+  /* content h3 */
+}
+.about__content h3 {
+  font-size: 2.3rem;
+}
+.about__content p {
+  font-size: 1.3rem;
+  margin: 2rem 6rem;
+}
+.about .btns {
+  display: inline-block;
+  width: 15rem;
+}
+.about .btns::before {
+  background-color: #081b29;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  /* span tag in h1 tag */
+}
+.heading span {
+  color: #00abf0;
+}/*# sourceMappingURL=about.css.map */
